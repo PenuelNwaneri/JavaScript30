@@ -2,7 +2,7 @@
 Nitish Dayal, Software & Applications Developer - [Contact](http://nitishdayal.me)  
 Last Commit Date: May 12, 2017
 
-The web page simulates a restaurant's menu. The user should be able to
+This web page simulates a restaurant's menu. The user should be able to
   add new dishes to the list using the `form` HTML element without having
   to refresh the page. Currently, when the user submits a dish into the form, 
   the page reloads (as this is the _default action_ of a `submit` event) 
