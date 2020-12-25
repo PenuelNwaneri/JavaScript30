@@ -31,6 +31,7 @@ In the `script` tag, we're provided 3 `const` variables: one referencing
   
   ```JavaScript
   const addItem = (e) => {
+    console.log(e);
     e.preventDefault()
   }
   ```
@@ -43,6 +44,7 @@ In the `script` tag, we're provided 3 `const` variables: one referencing
   ```JavaScript
   /* In function body */
   const text = (e.target.querySelector('[name="item"]').value(),
+  (this.querySelector('[name="item"]')).value ();
     item = {
       text,
       done: false
